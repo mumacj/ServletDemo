@@ -15,6 +15,7 @@
   <img src="/download/testDownload.jpg" alt="" style="height: 95%;width: 30%;">
   <button onclick="Download()">Download this picture!</button>
   <button onclick="Refresh()">Refresh Test!</button>
+  <button onclick="Gzip()">Gzip</button>
   <script>
     function HelloWorld() {
         window.location.href="/HelloWorld";
@@ -24,6 +25,9 @@
     }
     function Refresh() {
         window.location.href="/Refresh";
+    }
+    function Gzip() {
+        window.location.href="/Gzip";
     }
   </script>
   </body>

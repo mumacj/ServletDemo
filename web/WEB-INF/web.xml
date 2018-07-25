@@ -24,6 +24,10 @@
             <param-value>5</param-value>
         </init-param>
     </servlet>
+    <servlet>
+        <servlet-name>Gzip</servlet-name>
+        <servlet-class>servlet.Gzip</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
@@ -42,5 +46,9 @@
     <servlet-mapping>
         <servlet-name>Refresh</servlet-name>
         <url-pattern>/Refresh</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Gzip</servlet-name>
+        <url-pattern>/Gzip</url-pattern>
     </servlet-mapping>
 </web-app>
