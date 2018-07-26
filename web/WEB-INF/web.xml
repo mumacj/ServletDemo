@@ -28,6 +28,10 @@
         <servlet-name>Gzip</servlet-name>
         <servlet-class>servlet.Gzip</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>VerificationImage</servlet-name>
+        <servlet-class>servlet.VerificationImage</servlet-class>
+    </servlet>
 
 
     <servlet-mapping>
@@ -50,5 +54,9 @@
     <servlet-mapping>
         <servlet-name>Gzip</servlet-name>
         <url-pattern>/Gzip</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>VerificationImage</servlet-name>
+        <url-pattern>/VerificationImage</url-pattern>
     </servlet-mapping>
 </web-app>
