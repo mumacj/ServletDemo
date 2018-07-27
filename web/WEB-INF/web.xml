@@ -59,4 +59,9 @@
         <servlet-name>VerificationImage</servlet-name>
         <url-pattern>/VerificationImage</url-pattern>
     </servlet-mapping>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/views/error.jsp</location>
+    </error-page>
 </web-app>
